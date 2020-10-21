@@ -1,0 +1,81 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.img{
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+  margin-left: 4px;
+}
+
+.issue{
+  font-size: large;
+}
+
+.note{
+  font-size: small;
+  margin-left: 20px;
+}
+
+.bug_report{
+  border-radius:20em;
+  background-color: orange;
+  margin-left: 4px;   
+}
+.needs_triage{
+  border-radius:20em;
+  background-color:red;
+  margin-left: 4px;   
+}
+.need_investigation{
+  border-radius:20em;
+  background-color:purple;
+  margin-left: 4px;   
+}
+.proposal{
+  border-radius:20em;
+  background-color: yellow;
+  margin-left: 4px;   
+}
+.enhancemnet{
+  border-radius:20em;
+  background-color: lightblue;
+  margin-left: 4px;   
+}
